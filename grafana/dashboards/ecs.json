@@ -1,0 +1,43 @@
+{
+    "title": "Node.js and MongoDB Dashboard",
+    "rows": [
+      {
+        "title": "Node.js Metrics",
+        "panels": [
+          {
+            "id": 1,
+            "title": "Requests per second",
+            "type": "graph",
+            "span": 6,
+            "targets": [
+              {
+                "expr": "rate(nodejs_requests_total[1m])",
+                "legendFormat": "{{ value }}",
+                "refId": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "MongoDB Metrics",
+        "panels": [
+          {
+            "id": 2,
+            "title": "Connections",
+            "type": "graph",
+            "span": 6,
+            "targets": [
+              {
+                "expr": "mongodb_connections",
+                "legendFormat": "{{ value }}",
+                "refId": "A"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  

@@ -6,3 +6,9 @@ scrape_configs:
     metrics_path: /metrics
     static_configs:
       - targets: ['nodejs:3000']
+
+
+  - job_name: 'mongodb'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['mongodb-service:27017']
