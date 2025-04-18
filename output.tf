@@ -14,7 +14,7 @@ output "mongodb_service_name" {
 }
 
 output "prometheus_url" {
-  value       = "http:                                                    
+  value       = "http://${module.monitoring.prometheus_service.name}:9090"
   description = "URL of the Prometheus service"
 }
 
