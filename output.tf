@@ -4,13 +4,11 @@ output "ecs_cluster_name" {
 }
 
 output "nodejs_service_name" {
-  value       = module.ecs_services.nodejs_service.name
-  description = "Name of the Node.js service"
+  value = module.ecs_services.nodejs_service_name
 }
 
 output "mongodb_service_name" {
-  value       = module.ecs_services.mongodb_service.name
-  description = "Name of the MongoDB service"
+  value = module.ecs_services.mongodb_service_name
 }
 
 output "prometheus_url" {
