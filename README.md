@@ -18,3 +18,4 @@ Create one Node.js and one MongoDB container, attach persistent volumes, and set
 
 <img width="959" alt="{3C6A1F03-FA24-4EBA-88AA-D1105BCC4DCC}" src="https://github.com/user-attachments/assets/5d38836c-9c10-48a0-b49b-6f8eec591fa5" />
 
+<img width="959" alt="grafana" src="https://github.com/user-attachments/assets/f2d327f9-b10c-4b32-a0d7-06b7614b401e" />
